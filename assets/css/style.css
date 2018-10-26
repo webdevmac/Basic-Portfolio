@@ -4,32 +4,30 @@
     box-sizing: border-box;
 }
 
-.body{
+.body {
     font-family:Arial,"Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
-    
+    margin: 0px 0px 0px 0px;
+
 }
 
-
-
     
 
-    
-
-.left{
+.left {
     font-family: Georgia, Times, "Times New Roman", serif;
     float: left;
     color: #777777;
     background: #ffffff;
-    width: 25%;
+    width: 30%;
     height: 60px;
     border-bottom-style: solid;
     border-color: #dddddd;
+
       
 }
 
 
-.yourname{
+.yourname {
     font-family: Georgia, Times, "Times New Roman", serif;
     color: #fff;
     text-align: center;
@@ -41,14 +39,14 @@
 .middle {
     float: left;
     background: #4aaaa5;
-    width: 20%;
+    width: 15%;
     height: 60px;
     padding: 0;
     margin: none;
     border-bottom-style: solid;
     border-color: #dddddd;
-  }
 
+}
   .right {
     float: right;
     clear:
@@ -61,8 +59,12 @@
     border-bottom-style: solid;
     border-color: #dddddd;
     
-  }
+}
 
+  
+
+
+  
 
 .nav li {
     display: inline-block;
@@ -70,8 +72,11 @@
     padding: 10px;
     margin-left: 30px;
     color: #777777;
-
-
+    
+}
+.nav a {
+    text-decoration: none;
+    color: #777777;
 
 }
 
@@ -93,7 +98,6 @@
         position: relative;
         position: center;
         bottom: -90px;
-        left: 25%;
         background: #ffffff;
         width: 600px;
         height: 400px;
@@ -102,8 +106,9 @@
         padding-right: 20px;
         padding-top: none;
         padding-bottom: 20px;
-        border: #dddddd, black;
-        
+        border: #dddddd;
+        margin-left: auto;
+        margin-right: auto;
         
         
  }
@@ -113,11 +118,12 @@
         position: relative;
         margin-bottom:20px;
         margin-top: none;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         color: #4aaaa5;
         border-bottom-style: solid;
         border-color:#dddddd;
         height: 70px;
+        
 
  }
 
@@ -131,6 +137,16 @@
         font-size: 20px;
  }
 
+    #portfolio {
+        position: absolute;
+        top: 20px;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+
+}
+
     #contact {
         position: absolute;
         top: 20px;
@@ -143,13 +159,12 @@
 
     form {
         margin-top: 100px;
-        transition: all 4s ease-in-out;
+        
 
     }
 
 
     .form-control{
-
         width: 560px;
         outline-color: #dddddd;
         font-size: 15px;
@@ -159,17 +174,17 @@
         font-size: 12px;
     }
 
-    .message{
+    .message {
         border-color: #dddddd;
     }
 
-     .submit{
+     .submit {
         width: 0px;
         
         
 
     }
-    .form-control-submit{
+    .form-control-submit {
 
         background-color: #4aaaa5;
         color: #fff;
@@ -178,13 +193,40 @@
         font-size: 15px;
 
     }
+
+    .layout1, .layout2 {
+        width: 20%;
+        margin: 0px 0px 0px 0px;
+        float: left;
+        
+    }
+    .labelhtml, 
+    .labelcss, 
+    .labelbootstrap, 
+    .labeljavascript,
+    .labelgithub {
+
+        background-color: #4aaaa5;
+        color: #fff;
+        position: relative;
+        top: 59px;
+        text-align: center;
+        font-size: 8px;
+        padding: 4px;
+
+    }
+    
     
 
-    #img {
-        float: left;
+  
+
+    .img1 {
+        
+        
+        background-image: url("../images/image (5).jpeg");
         padding: 0px;
-        width: 120px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
         margin-right: 20px;
         margin-left: 0px;
         margin-top: 10px;
@@ -194,7 +236,75 @@
 
     }
 
-    #para {
+
+    .img2 {
+        
+        background-image: url("../images/image (6).jpeg");
+        padding: 0px;
+        width: 100px;
+        height: 80px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+
+    .img3 {
+
+        
+        background-image: url("../images/image1.jpeg");
+        padding: 0px;
+        width: 100px;
+        height: 80px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .img4 {
+    
+        background-image: url("../images/image (7).jpeg");
+        padding: 0px;
+        width: 100px;
+        height: 80px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    
+    
+    .img5 {
+        
+    
+        background-image: url("../images/images (4).jpeg");
+        padding: 0px;
+        width: 100px;
+        height: 80px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    
+    #img {
+        float: left;
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+    
+
+    .para {
         
         margin: 0px;
         padding: 8px 0 0 0;
@@ -205,9 +315,11 @@
     
         
     .footer {
+        position:relative;
+        bottom: 300px;
         height: 50px;
         background-color: #666666;
-        padding: 20px;
+        padding: 5px;
         border-top: 8px solid #4aaaa5;
         text-align: center;
 
